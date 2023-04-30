@@ -6,7 +6,7 @@ const Header = () => {
         <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
             <img className="w-28" src={kiaSoulKult} alt="kia soul cult"></img>
         </div>
-        <div>
+        <div className="font-serif">
             <ul>
                 <li>Home</li> 
                 <li>Pages</li>
