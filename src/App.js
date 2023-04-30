@@ -1,9 +1,9 @@
 import React from "react";
-
+import Home from "./pages/Home";
 function App() {
   return (
     <div className='App'>
-      <h1 className="text-red-600 text-2xl">Kia Soul Cult</h1>
+      <Home />
     </div>
   );
 }
