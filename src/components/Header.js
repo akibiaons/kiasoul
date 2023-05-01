@@ -1,5 +1,5 @@
 import React from 'react';
-import kiaSoulKult from '../assets';
+import {kiaSoulKult, cartImg} from "../assets/index";
 
 const Header = () => {
     return (
@@ -16,6 +16,9 @@ const Header = () => {
                     <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">Element</li>
                     <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">Blog</li>
                 </ul>
+                <div>
+                    <img src={cartImg} alt=""></img>
+                </div>
             </div>
             </div>
         </div>
