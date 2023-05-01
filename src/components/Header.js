@@ -8,7 +8,7 @@ const Header = () => {
                 <div>
                     <img className="w-28" src={kiaSoulKult} alt="logo"/>
                 </div>
-                <div>
+                <div className="flex items-center gap-8 relative">
                 <ul className="flex item-center gap-8">
                     <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">Home</li>
                     <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">Pages</li>
@@ -16,8 +16,10 @@ const Header = () => {
                     <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">Element</li>
                     <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">Blog</li>
                 </ul>
-                <div>
-                    <img src={cartImg} alt=""></img>
+                <div className="relative">
+                    <img className="w-12" src={cartImg} alt="shoppingBag"></img>
+                    <span className="absolute w-6 top-2 left-0 text-sm flex items-senter justify-center font-semibold font-titleFont">0
+                    </span>
                 </div>
             </div>
             </div>
