@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
     const data = [
-        "src/assets/img-0.jpeg",
+        'src/assets/img-0.jpeg',
         "src/assets/img-1.png",
         "src/assets/img-2.png",
     ];
