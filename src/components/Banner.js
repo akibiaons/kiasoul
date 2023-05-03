@@ -28,8 +28,8 @@ const Banner = () => {
                     alt="ImgThree"
                     />
                 </div>
-                <div>
-                    <div>
+                <div className="absolute w-fit left-0 right-0 mx-auto flex gap-8 bottom-44">
+                    <div className="w-14 h-12 border-[1px] border-gray-700 flex items-center justify-center hover: cursor-pointer hover: bg-gray-700 hover: text-white active:bg-gray-900 duration-300">
                         <HiArrowLeft />
                     </div>
                     <div>
