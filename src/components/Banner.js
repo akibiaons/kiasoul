@@ -10,16 +10,16 @@ const Banner = () => {
     ];
 
     const prevSlide = () => {
-        setCurrentSlide(currentSlide === 0 ? 3 : (prev) => prev - 1);
+        setCurrentSlide(currentSlide === 0 ? 2 : (prev) => prev - 1);
     };
     const nextSlide = () => {
-        setCurrentSlide(currentSlide === 3 ? 0 : (prev) => prev + 1);
+        setCurrentSlide(currentSlide === 2 ? 0 : (prev) => prev + 1);
     };
 
     return (
         <div className="w-full h-auto overflow-x-hidden">
             <div className="w-screen h-[650px] relative">
-                <div style={{transform:`translateX(-${currentSlide * 100}vw)`}} className="w-[400vw] h-full flex">
+                <div style={{transform:`translateX(-${currentSlide * 100}vw)`}} className="w-[400vw] h-full flex transition-transform duration-1000">
                     <img
                     className="w-screen h-full object-cover"
                     src={data[0]} 
