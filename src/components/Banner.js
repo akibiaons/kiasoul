@@ -4,7 +4,7 @@ import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 const Banner = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
     const data = [
-        'https://raw.githubusercontent.com/akibiaons/kiasoul/main/src/assets/img-0.jpeg',
+        "https://raw.githubusercontent.com/akibiaons/kiasoul/main/src/assets/img-0.jpeg",
         "https://raw.githubusercontent.com/akibiaons/kiasoul/main/src/assets/img-1.png",
         "https://raw.githubusercontent.com/akibiaons/kiasoul/main/src/assets/img-2.png",
     ];
