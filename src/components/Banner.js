@@ -8,7 +8,7 @@ const Banner = () => {
         "https://raw.githubusercontent.com/akibiaons/kiasoul/main/src/assets/img-1.png",
         "https://raw.githubusercontent.com/akibiaons/kiasoul/main/src/assets/img-2.png",
     ];
-
+    
     const prevSlide = () => {
         setCurrentSlide(currentSlide === 0 ? 2 : (prev) => prev - 1);
     };
