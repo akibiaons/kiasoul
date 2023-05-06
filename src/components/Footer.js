@@ -1,4 +1,5 @@
 import React from 'react'
+import {kiaSoulKult, cartImg} from "../assets/index";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
         <div className="max-w-screen-xl mx-auto">
             {/* ======== LogoIcon Start here ============ */}
             <div> {/* This <div> wil have footer logo which is light to contrast with dark-bg*/}
-                <img className="w-32" src={logoLight} alt="logoLight"/>
+                <img className="w-32" src={kiaSoulKult} alt="logoLight"/>
             </div>
             {/* ======== LogoIcon End here ============ */}
             {/* ======== LocateUs Start here ========== */}
