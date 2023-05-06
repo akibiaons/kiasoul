@@ -8,6 +8,8 @@ import {
     FaYoutube,
     FaHome,
 } from "react-icons/fa";
+import { MdLocationOn } from "react-icons/md";
+import { BsPersonFill, BsPaypal } from "react-icons/bs";
 import { logoLight, paymentLogo } from "../assets";
 
 const Footer = () => {
