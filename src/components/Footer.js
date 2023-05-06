@@ -47,10 +47,27 @@ const Footer = () => {
                 <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
                     <span>
                         <BsPersonFill />
-                    </span>{""}
+                    </span>
                     My account
                 </p>
-                <p></p>
+                <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
+                    <span className="text-lg">
+                        <BsPaypal />
+                    </span>
+                    Checkout
+                </p>
+                <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
+                    <span className="text-lg">
+                        <FaHome />
+                    </span>
+                    Order Tracking
+                </p>
+                <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
+                    <span className="text-lg">
+                        <MdLocationOn />
+                    </span>
+                    Location
+                </p>
             </div>
             {/* ======== Profile End here ========== */}
             {/* ======== Subscribe Start here ========== */}
