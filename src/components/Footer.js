@@ -44,6 +44,13 @@ const Footer = () => {
             {/* ======== Profile Start here ========== */}
             <div>
                 <h2 className="text-2xl font-semibold text-white mb-4">Profile</h2>
+                <p>
+                    <span>
+                        <BsPersonFill />
+                    </span>{""}
+                    My account
+                </p>
+                <p></p>
             </div>
             {/* ======== Profile End here ========== */}
             {/* ======== Subscribe Start here ========== */}
