@@ -29,15 +29,20 @@ const Footer = () => {
             </div>
             {/* ======== LogoIcon End here ============ */}     
             {/* ======== LocateUs Start here ========== */}
-            <h2 className="text-2xl font-semibold text-white mb-4">Locate us!</h2>
             <div>
-                <p>MBD, Ruwi, Muscat-Oman</p>
-                <p>Mobile: 00968 9785962</p>
-                <p>Phone: 00968 24769821</p>
-                <p>E-Mail: support@kiasoulkult.com</p>
+                <h2 className="text-2xl font-semibold text-white mb-4">Locate us!</h2>
+                <div className="text-base flex flex-col gap-2">
+                    <p>MBD, Ruwi, Muscat-Oman</p>
+                    <p>Mobile: 00968 9785962</p>
+                    <p>Phone: 00968 24769821</p>
+                    <p>E-Mail: support@kiasoulkult.com</p>
+                </div>
             </div>
             {/* ======== LocateUs End here ========== */}
             {/* ======== Profile Start here ========== */}
+            <div>
+                <h2 className="text-2xl font-semibold text-white mb-4">Profile</h2>
+            </div>
             {/* ======== Profile End here ========== */}
             {/* ======== Subscribe Start here ========== */}
             {/*========= Subscribe End here ==========*/}
