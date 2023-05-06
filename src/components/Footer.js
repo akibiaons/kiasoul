@@ -13,7 +13,7 @@ import { logoLight, paymentLogo } from "../assets";
 const Footer = () => {
   return (
     <div className="bg-black text-[#949494] py-20 font-titleFont">
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-4">
             {/* ======== LogoIcon Start here ============ */}
             <div className="flex flex-col gap-7"> {/* This <div> wil have footer logo which is light to contrast with dark-bg*/}
                 <img className="w-32" src={kiaSoulKult} alt="logoLightGoesHere"/>
@@ -27,8 +27,15 @@ const Footer = () => {
                     <FaInstagram className="hover:text-white duration-300 cursor-pointer" />
                 </div>
             </div>
-            {/* ======== LogoIcon End here ============ */}
+            {/* ======== LogoIcon End here ============ */}     
             {/* ======== LocateUs Start here ========== */}
+            <h2 className="text-2xl font-semibold text-white mb-4">Locate us!</h2>
+            <div>
+                <p>MBD, Ruwi, Muscat-Oman</p>
+                <p>Mobile: 00968 9785962</p>
+                <p>Phone: 00968 24769821</p>
+                <p>E-Mail: support@kiasoulkult.com</p>
+            </div>
             {/* ======== LocateUs End here ========== */}
             {/* ======== Profile Start here ========== */}
             {/* ======== Profile End here ========== */}
