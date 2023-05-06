@@ -12,6 +12,7 @@ const Products = () => {
           Lorem ipsum dolor sit amet, consectetur adip, adipiscing elit fugit inventore et netus et sapien cumque quam. Lorem ipsum dolor sit amet, consectetur adip omnis justo inventore et netus et sapien cumque qu inhusir voluptua. Lorem ipsum dolor sit amet, conmigo.
         </p>
       </div>
+      <div></div>
     </div>
   );
 };
