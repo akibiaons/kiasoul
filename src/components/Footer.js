@@ -1,5 +1,6 @@
 import React from 'react'
 import {kiaSoulKult, cartImg} from "../assets/index";
+import { ImGithub } from "react-icons/im";
 import {
     FaFacebookF,
     FaTwitter,
@@ -18,6 +19,13 @@ const Footer = () => {
                 <img className="w-32" src={kiaSoulKult} alt="logoLightGoesHere"/>
                 <p className="text-white text-sm tracking-wide">ReactBD.com</p>
                 <img className="w-56" src="" alt="paymentLogoGoesHere"/>
+                <div className="flex gap-5 text-lg text-gray-400">
+                    <ImGithub className="hover:text-white duration-300 cursor-pointer" />
+                    <FaYoutube className="hover:text-white duration-300 cursor-pointer" />
+                    <FaFacebookF className="hover:text-white duration-300 cursor-pointer" />
+                    <FaTwitter className="hover:text-white duration-300 cursor-pointer" />
+                    <FaInstagram className="hover:text-white duration-300 cursor-pointer" />
+                </div>
             </div>
             {/* ======== LogoIcon End here ============ */}
             {/* ======== LocateUs Start here ========== */}
