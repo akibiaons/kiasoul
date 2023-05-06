@@ -44,7 +44,7 @@ const Footer = () => {
             {/* ======== Profile Start here ========== */}
             <div>
                 <h2 className="text-2xl font-semibold text-white mb-4">Profile</h2>
-                <p>
+                <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer">
                     <span>
                         <BsPersonFill />
                     </span>{""}
