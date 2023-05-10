@@ -8,9 +8,10 @@ import {
   RouterProvider,
   ScrollRestoration,
 } from "react-router-dom";
+import Cart from "./pages/Cart";
 
 // Will create a layout below to define what I want. So Header and footer will show on every page when I click on cart or checkout for example.
-const layout =()=>{
+const Layout =()=>{
   return(
     <div>
       <Header />
@@ -19,6 +20,23 @@ const layout =()=>{
     </div>
   );
 };
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <Layout />,
+    children: [
+      {
+        path:"/",
+        element: <Home />,
+      },
+      {
+        path:"/cart",
+        element: <Cart />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
